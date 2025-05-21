@@ -14,6 +14,8 @@ Dokumentasi ini mencakup tahapan instalasi dan konfigurasi lengkap, mulai dari s
 
 - `docs/network-setup.md`: Konfigurasi jaringan dan bridge Linux
 - `docs/management-server.md`: Instalasi CloudStack Management Server
+- `docs/nfs-setup.md`: Setup NFS untuk primary & secondary storage
+- `docs/enable-ssh-root-access.md`: Mengaktifkan akses root via SSH untuk manajemen host KVM
 
 ## ⚙️ Tools & OS
 
