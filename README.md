@@ -1,13 +1,14 @@
 # ☁️ Apache CloudStack - Kelompok 9
 
 Nama Kelompok :
+
 - Seno Pamungkas Rahman (2106731586)
 - Jeffri ()
 - Daniel Niko Mardjaja (2206026183)
-- Ivander Andreas Wijaya ()
+- Ivander Andreas Wijaya (2206031896)
 - Faruq Sami Ramadhan (2206026675)
 
-Proyek ini bertujuan untuk membangun private cloud menggunakan [Apache CloudStack](https://cloudstack.apache.org/). 
+Proyek ini bertujuan untuk membangun private cloud menggunakan [Apache CloudStack](https://cloudstack.apache.org/).
 Dokumentasi ini mencakup tahapan instalasi dan konfigurasi lengkap, mulai dari setup jaringan hingga peluncuran instance ISO.
 
 ## 📚 Struktur Dokumentasi
