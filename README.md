@@ -2,7 +2,7 @@
 
 Nama Kelompok :
 - Seno Pamungkas Rahman (2106731586)
-- Jeffri ()
+- Jeffri (2106705070)
 - Daniel Niko Mardjaja (2206026183)
 - Ivander Andreas Wijaya ()
 - Faruq Sami Ramadhan (2206026675)
@@ -16,6 +16,7 @@ Dokumentasi ini mencakup tahapan instalasi dan konfigurasi lengkap, mulai dari s
 - `docs/management-server.md`: Instalasi CloudStack Management Server
 - `docs/nfs-setup.md`: Setup NFS untuk primary & secondary storage
 - `docs/enable-ssh-root-access.md`: Mengaktifkan akses root via SSH untuk manajemen host KVM
+- `docs/cloudstack-setup.md`: Setup Apache CloudStack
 
 ## ⚙️ Tools & OS
 
