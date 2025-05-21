@@ -14,10 +14,14 @@ To install the KVM module as part of setting up Apache CloudStack for your Cloud
 2. **Configure Libvirtd:**
 
    - Edit the Libvirtd configuration file `/etc/default/libvirtd` to enable VNC for console proxy.
+   - For Ubuntu 22.04, use this configuration:
      ```bash
      echo LIBVIRTD_ARGS=\"--listen\" >> etc/default/libvirtd
      ```
-     so, the content of the libvirtd would looks like this: ![Libvirt image](https://)
+   - For older Ubuntu version (18.04/20.04), enable libvirtd in listen mode:
+     ```bash
+     sed -i -e 's/.*libvirtd_opts.*/libvirtd_opts="-l"/' /etc/default/libvirtd
+     ```
 
 3. **Restart Libvirtd services:**
 
@@ -37,8 +41,6 @@ To install the KVM module as part of setting up Apache CloudStack for your Cloud
    remote_mode="legacy"
    ```
 
-   so, the content of the libvirt.conf would be look like this: ![Libvirt.conf images](https://)
-
 5. **Configure default libvitd config:**
 
    - Edit `etc/libvirt/libvirtd.conf` as follows:
@@ -51,8 +53,6 @@ To install the KVM module as part of setting up Apache CloudStack for your Cloud
    echo 'auth_tcp = "none"' >> /etc/libvirt/libvirtd.conf
    systemctl restart libvirtd
    ```
-
-   so, the libvirtd.conf would look like this: ![Libvirtd.conf images](https://)
 
    Note: the above default libvirtd configuration is just for initial setup. When we add KVM host in CloudStack by default the host will be configured to use more secure TLS configuration.
 

@@ -26,9 +26,6 @@ To set up MySQL database in your CloudStack environment, follow these steps:
     binlog-format = 'ROW'
     ```
 
-    so, the `cloudstack.cnf` file would look like this:
-    ![Cloudstack.cnf file content](https://)
-
 4.  **Restart MySQL Services:**
 
     ```bash
