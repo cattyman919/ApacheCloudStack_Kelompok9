@@ -41,7 +41,7 @@ SSH is a cryptographic network protocol that enables secure communication betwee
 ```
 PermitRootLogin yes
 ```
-![Alt text](/Image/image_SSH.png)
+![Alt text](/image/image_SSH.png)
 
 2. Restart the SSH service:
 
@@ -49,11 +49,11 @@ PermitRootLogin yes
 sudo systemctl restart ssh
 ```
 3. Add Egress rules to the test3_network
-![Alt text](/Image/image_SSH_3.png)
+![Alt text](/image/image_SSH_3.png)
 
 4. Configure Firewall from Public IP Address
-![Alt text](/Image/image_SSH_5.png)
-![Alt text](/Image/image_SSH_4.png)
+![Alt text](/image/image_SSH_5.png)
+![Alt text](/image/image_SSH_4.png)
 
 5. Configure Port Forwarding for SSH
-![Alt text](/Image/image_SSH_2.png)
+![Alt text](/image/image_SSH_2.png)
