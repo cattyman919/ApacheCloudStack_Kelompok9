@@ -52,7 +52,7 @@ bridges:
       stp: false
       forward-delay: 0
 ```
-![netplan config](/image/image_netplan.png)
+![netplan config](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/blob/main/image/image_netplan.png)
 
 Jalankan:
 ```bash
