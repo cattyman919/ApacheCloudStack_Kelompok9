@@ -15,11 +15,11 @@ Dokumentasi ini mencakup tahapan instalasi dan konfigurasi lengkap, mulai dari s
 
 - `docs/network-setup.md`: Konfigurasi jaringan dan bridge Linux
 - `docs/management-server.md`: Instalasi CloudStack Management Server
+- `docs/database-setup.md`: Instalasi dan konfigurasi MySQ
 - `docs/nfs-setup.md`: Setup NFS untuk primary & secondary storage
 - `docs/enable-ssh-root-access.md`: Mengaktifkan akses root via SSH untuk manajemen host KVM
 - `docs/cloudstack-setup.md`: Setup Apache CloudStack
 - `docs/iso-instance-setup.md`: Instalasi ISO dan peluncuran instance
-- `docs/database-setup.md`: Instalasi dan konfigurasi MySQL
 
 ## ⚙️ Tools & OS
 
