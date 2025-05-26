@@ -2,6 +2,10 @@
 
 In this explanation, we will show how you can setup an advanced zone (without security groups) in a typical (home/private) 192.168.1.0/24 network.
 
+## Video Guide
+
+[![Apache Cloudstack Setup](https://img.youtube.com/vi/i7VBEj6q27o/0.jpg)](https://youtu.be/i7VBEj6q27o)
+
 ## 1. Setup Advanced Zone Details
 To set up our CloudStack, we have to proceed to http://192.168.1.225(i.e. the cloudbr0-IP):8080/client first, then log in using the default credentials - username `admin` and password `password`.
 

@@ -44,16 +44,3 @@ PermitRootLogin yes
 ![Alt text](/image/image_SSH.png)
 
 2. Restart the SSH service:
-
-```bash
-sudo systemctl restart ssh
-```
-3. Add Egress rules to the test3_network
-![Alt text](/image/image_SSH_3.png)
-
-4. Configure Firewall from Public IP Address
-![Alt text](/image/image_SSH_5.png)
-![Alt text](/image/image_SSH_4.png)
-
-5. Configure Port Forwarding for SSH
-![Alt text](/image/image_SSH_2.png)
