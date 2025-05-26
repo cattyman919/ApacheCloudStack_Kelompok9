@@ -13,6 +13,8 @@ Dokumentasi ini mencakup tahapan instalasi dan konfigurasi lengkap, mulai dari s
 
 ## 📚 Struktur Dokumentasi
 
+[Wiki Guide](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/wiki)
+
 1. `docs/network-setup.md`: Konfigurasi jaringan dan bridge Linux
 2. `docs/enable-ssh-root-access.md`: Mengaktifkan akses root via SSH untuk manajemen host KVM
 3. `docs/management-server.md`: Instalasi CloudStack Management Server
