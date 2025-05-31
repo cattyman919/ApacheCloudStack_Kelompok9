@@ -16,7 +16,7 @@ To install the KVM module as part of setting up Apache CloudStack for your Cloud
    - Edit the Libvirtd configuration file `/etc/default/libvirtd` to enable VNC for console proxy.
    - For Ubuntu 22.04, use this configuration:
      ```bash
-     echo LIBVIRTD_ARGS=\"--listen\" >> etc/default/libvirtd
+     echo LIBVIRTD_ARGS=\"--listen\" >> /etc/default/libvirtd
      ```
 
    - For Ubuntu 20.04 and later, the traditional socket/listen based configuration may not be supported, but we could get the old behaviour using:
@@ -31,7 +31,7 @@ To install the KVM module as part of setting up Apache CloudStack for your Cloud
    - Edit `etc/libvirt/libvirt.conf` and add the following:
 
    ```bash
-   remote_mode="legacy"
+   echo 'remote_mode=\"legacy\"' >> /etc/libvirt/libvirtd.conf
    ```
 
 5. **Configure default libvitd config:**
