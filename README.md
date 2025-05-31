@@ -25,6 +25,17 @@ Dokumentasi ini mencakup tahapan instalasi dan konfigurasi lengkap, mulai dari s
 8. `docs/iso-setup.md`: Instalasi ISO 
 9. `docs/launch_instance.md`:  Peluncuran instance
 
+## Video Guidline
+
+### Apache Cloudstack Installation 
+[![Apache Cloudstack Installation](https://img.youtube.com/vi/VlF2fn_pIzA/0.jpg)](https://youtu.be/VlF2fn_pIzA)
+
+### Apache Cloudstack Setup 
+[![Apache Cloudstack Setup](https://img.youtube.com/vi/i7VBEj6q27o/0.jpg)](https://youtu.be/i7VBEj6q27o)
+
+### Setup ISO & Launch ISO
+[![ISO Setup & Launch Instance From ISO](https://img.youtube.com/vi/E8Pq-wVS8es/0.jpg)](https://youtu.be/E8Pq-wVS8es)
+
 ## ⚙️ Tools & OS
 
 - OS: Ubuntu Server 24.04
