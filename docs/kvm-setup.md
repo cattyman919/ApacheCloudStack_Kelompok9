@@ -31,7 +31,7 @@ To install the KVM module as part of setting up Apache CloudStack for your Cloud
    - Edit `etc/libvirt/libvirt.conf` and add the following:
 
    ```bash
-   echo 'remote_mode=\"legacy\"' >> /etc/libvirt/libvirtd.conf
+   echo 'remote_mode="legacy"' >> /etc/libvirt/libvirtd.conf
    ```
 
 5. **Configure default libvitd config:**
