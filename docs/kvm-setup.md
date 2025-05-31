@@ -41,8 +41,8 @@ To install the KVM module as part of setting up Apache CloudStack for your Cloud
    ```bash
    echo 'listen_tls=0' >> /etc/libvirt/libvirtd.conf
    echo 'listen_tcp=0' >> /etc/libvirt/libvirtd.conf
-   echo 'tcp_port = 16509' >> /etc/libvirt/libvirtd.conf
-   echo 'tls_port = 16514' >> /etc/libvirt/libvirtd.conf
+   echo 'tcp_port = "16509"' >> /etc/libvirt/libvirtd.conf
+   echo 'tls_port = "16514"' >> /etc/libvirt/libvirtd.conf
    echo 'mdns_adv = 0' >> /etc/libvirt/libvirtd.conf
    echo 'auth_tcp = "none"' >> /etc/libvirt/libvirtd.conf
    systemctl restart libvirtd
