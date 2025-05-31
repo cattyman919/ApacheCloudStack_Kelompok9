@@ -18,17 +18,10 @@ To install the KVM module as part of setting up Apache CloudStack for your Cloud
      ```bash
      echo LIBVIRTD_ARGS=\"--listen\" >> etc/default/libvirtd
      ```
-   - For older Ubuntu version (18.04/20.04), enable libvirtd in listen mode:
-     ```bash
-     sed -i -e 's/.*libvirtd_opts.*/libvirtd_opts="-l"/' /etc/default/libvirtd
-     ```
-
-3. **Restart Libvirtd services:**
 
    - For Ubuntu 20.04 and later, the traditional socket/listen based configuration may not be supported, but we could get the old behaviour using:
      ```bash
      systemctl mask libvirtd.socket libvirtd-ro.socket libvirtd-admin.socket libvirtd-tls.socket libvirtd-tcp.socket
-     systemctl restart libvirtd
      ```
 
 4. **Configure Libvirt:**
@@ -47,8 +40,9 @@ To install the KVM module as part of setting up Apache CloudStack for your Cloud
 
    ```bash
    echo 'listen_tls=0' >> /etc/libvirt/libvirtd.conf
-   echo 'listen_tcp=1' >> /etc/libvirt/libvirtd.conf
+   echo 'listen_tcp=0' >> /etc/libvirt/libvirtd.conf
    echo 'tcp_port = 16509' >> /etc/libvirt/libvirtd.conf
+   echo 'tcp_port = 16514' >> /etc/libvirt/libvirtd.conf
    echo 'mdns_adv = 0' >> /etc/libvirt/libvirtd.conf
    echo 'auth_tcp = "none"' >> /etc/libvirt/libvirtd.conf
    systemctl restart libvirtd
