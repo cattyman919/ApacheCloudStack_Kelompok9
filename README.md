@@ -36,7 +36,7 @@ Dokumentasi ini mencakup tahapan instalasi dan konfigurasi lengkap, mulai dari s
 
 ---
 
-## 🎬 Video Panduan
+## 🎬 Video Guideline
 
 ### Apache Cloudstack Installation 
 [![Apache Cloudstack Installation](https://img.youtube.com/vi/VlF2fn_pIzA/0.jpg)](https://youtu.be/VlF2fn_pIzA)
@@ -58,7 +58,7 @@ Dokumentasi ini mencakup tahapan instalasi dan konfigurasi lengkap, mulai dari s
 
 ---
 
-## 🚀 Memulai
+## 🚀 Getting Started
 
 ```bash
 sudo apt update
