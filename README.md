@@ -1,7 +1,7 @@
 # ☁️ Apache CloudStack - Kelompok 9
 
 <p align="center">
-  <img src="/image/image_2025-06-04_212812320.png" alt="Logo Departemen Teknik Elektro FTUI" width="600"/>
+  <img src="/image/image_2025-06-04_212812320.png" alt="Logo Departemen Teknik Elektro FTUI" width="1000"/>
 </p>
 <p align="center">
   <strong>Departemen Teknik Elektro - Fakultas Teknik Universitas Indonesia</strong>
