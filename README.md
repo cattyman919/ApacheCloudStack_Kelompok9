@@ -7,7 +7,7 @@
   <strong>Departemen Teknik Elektro - Fakultas Teknik Universitas Indonesia</strong>
 </p>
 
-Nama Kelompok :
+Anggota Kelompok :
 
 - Seno Pamungkas Rahman (2106731586)
 - Jeffri (2106705070)
