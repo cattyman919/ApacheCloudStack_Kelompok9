@@ -1,10 +1,10 @@
 # ☁️ Apache CloudStack - Kelompok 9
 
 <p align="center">
-  <img src="/image/image_2025-06-04_212812320.png" alt="Logo Departemen Teknik Elektro FTUI" width="1000"/>
+  <img src="/image/image_2025-06-04_212812320.png" alt="Logo Departemen Teknik Elektro FTUI" width="1000"/>
 </p>
 <p align="center">
-  <strong>Departemen Teknik Elektro - Fakultas Teknik Universitas Indonesia</strong>
+  <strong>Departemen Teknik Elektro - Fakultas Teknik Universitas Indonesia</strong>
 </p>
 
 Nama Kelompok :
@@ -18,11 +18,17 @@ Nama Kelompok :
 Proyek ini bertujuan untuk membangun private cloud menggunakan [Apache CloudStack](https://cloudstack.apache.org/).
 Dokumentasi ini mencakup tahapan instalasi dan konfigurasi lengkap, mulai dari setup jaringan hingga peluncuran instance ISO.
 
+## Table of Contents
+- [📚 Struktur Dokumentasi](#📚-struktur-dokumentasi)
+- [🎬 Video Guideline](#🎬-video-guideline)
+- [⚙️ Tools & OS](#⚙️-tools--os)
+- [🚀 Getting Started](#🚀-getting-started)
+
 ---
 
 ## 📚 Struktur Dokumentasi
 
-[Wiki Guide](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/wiki)
+Untuk panduan yang lebih detail, terstruktur, dan mudah dinavigasi, kami sangat merekomendasikan Anda untuk langsung merujuk ke **[Wiki Guide](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/wiki)** kami. Dokumen-dokumen berikut juga tersedia secara individual jika Anda mencari topik spesifik:
 
 1. [`docs/network-setup.md`](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/blob/main/docs/network-setup.md): Konfigurasi jaringan dan bridge Linux
 2. [`docs/enable-ssh-root-access.md`](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/blob/main/docs/enable-ssh-root-access.md): Mengaktifkan akses root via SSH untuk manajemen host KVM
@@ -70,4 +76,3 @@ Tambahan:
 ```bash
 sudo apt update
 sudo apt install cloudstack-management mysql-server nfs-kernel-server
-```
