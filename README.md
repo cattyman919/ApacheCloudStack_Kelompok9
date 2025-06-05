@@ -24,15 +24,15 @@ Dokumentasi ini mencakup tahapan instalasi dan konfigurasi lengkap, mulai dari s
 
 [Wiki Guide](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/wiki)
 
-1. `docs/network-setup.md`: Konfigurasi jaringan dan bridge Linux
-2. `docs/enable-ssh-root-access.md`: Mengaktifkan akses root via SSH untuk manajemen host KVM
-3. `docs/management-server.md`: Instalasi CloudStack Management Server
-4. `docs/database-setup.md`: Instalasi dan konfigurasi MySQL
-5. `docs/nfs-setup.md`: Setup NFS untuk primary & secondary storage
-6. `docs/kvm-setup.md`: Setup host KVM dan konfigurasi libvirt
-7. `docs/cloudstack-setup.md`: Setup Apache CloudStack
-8. `docs/iso-setup.md`: Instalasi ISO
-9. `docs/launch_instance.md`: Peluncuran instance
+1. [`docs/network-setup.md`](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/blob/main/docs/network-setup.md): Konfigurasi jaringan dan bridge Linux
+2. [`docs/enable-ssh-root-access.md`](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/blob/main/docs/enable-ssh-root-access.md): Mengaktifkan akses root via SSH untuk manajemen host KVM
+3. [`docs/management-server.md`](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/blob/main/docs/management-server.md): Instalasi CloudStack Management Server
+4. [`docs/database-setup.md`](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/blob/main/docs/database-setup.md): Instalasi dan konfigurasi MySQL
+5. [`docs/nfs-setup.md`](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/blob/main/docs/nfs-setup.md): Setup NFS untuk primary & secondary storage
+6. [`docs/kvm-setup.md`](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/blob/main/docs/kvm-setup.md): Setup host KVM dan konfigurasi libvirt
+7. [`docs/cloudstack-setup.md`](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/blob/main/docs/cloudstack-setup.md): Setup Apache CloudStack
+8. [`docs/iso-setup.md`](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/blob/main/docs/iso-setup.md): Instalasi ISO
+9. [`docs/launch_instance.md`](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/blob/main/docs/launch_instance.md): Peluncuran instance
 
 Tambahan:
 
