@@ -36,7 +36,7 @@ Dokumentasi ini mencakup tahapan instalasi dan konfigurasi lengkap, mulai dari s
 
 Tambahan:
 
-- `docs/tailscale-setup.md`: Setup Tailscale VPN untuk akses private
+- [`docs/tailscale-setup.md`](https://github.com/cattyman919/ApacheCloudStack_Kelompok9/blob/main/docs/tailscale-setup.md): Setup Tailscale VPN untuk akses private
 
 ---
 
